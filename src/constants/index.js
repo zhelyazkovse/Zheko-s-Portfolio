@@ -25,6 +25,7 @@ import {
   threejs,
   telerik,
   athletepullup,
+  iphone,
   giphyproject,
 } from "../assets";
 
@@ -56,8 +57,8 @@ const services = [
     title: "Backend Developer",
     icon: backend,
   },
-  
-  
+
+
 ];
 
 const technologies = [
@@ -81,12 +82,12 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  
+
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  
+
   {
     name: "Three JS",
     icon: threejs,
@@ -95,7 +96,11 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  
+  {
+    name: "Nodejs",
+    icon: nodejs,
+  },
+
 
 ];
 
@@ -113,45 +118,53 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  
-  
+
+
 ];
 
 const testimonials = [
   {
     testimonial:
       "Soon...(tm)",
-    
+
   },
   {
     testimonial:
       "Soon...(tm)",
   },
-  
+
 ];
 
 const projects = [
   {
-    name: "Fitness app",
+    name: "Apple iPhone Website",
     description:
-      "Web-based platform that allows users to plan, set goals and fitness challenges in a modern way.",
+      "Inspired by Apple's website, this app will help you choose the device that fits you.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "firebase",
-        color: "orange-text-gradient",
+        name: "Three JS",
+      
+      },
+      {
+        name: "GSAP",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "blue-text-gradient",
       },
       {
         name: "css",
         color: "pink-text-gradient",
       },
-      
+
     ],
-    image: athletepullup,
-    source_code_link: "https://github.com/Team-React-Newbies/fitness-app-final.git",
+    image: iphone,
+    source_code_link: "https://apple-i-phone-website-clone.vercel.app/",
   },
   {
     name: "Giphy",
@@ -174,7 +187,29 @@ const projects = [
     image: giphyproject,
     source_code_link: "https://github.com/A58-Team-03/Web-Project-Giphy.git",
   },
-  
+  {
+    name: "Fitness app",
+    description:
+      "Web-based platform that allows users to plan, set goals and fitness challenges in a modern way.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+
+    ],
+    image: athletepullup,
+    source_code_link: "https://github.com/Team-React-Newbies/fitness-app-final.git",
+  },
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };

@@ -33,6 +33,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import athletepullup from "./athletepullup.jpg";
 import giphyproject from "./giphyproject.png";
+import iphone from "./iPhone.jpg";
 
 export {
   logo,
@@ -67,4 +68,5 @@ export {
   jobit,
   tripguide,
   giphyproject,
+  iphone,
 };
